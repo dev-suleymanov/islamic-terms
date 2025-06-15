@@ -5,5 +5,5 @@ public record TermDto(
         String name,
         String definition,
         CategoryDto category,
-        String source)
+        SourceDto source)
 {}
